@@ -1,6 +1,7 @@
 from modules.jumlah import tambah
 
 
-A = 5
-B = 4 
+A = int(input("Nilai A : "))
+B = int(input("Nilai B : "))
 print(f'hasil penjumlahan {A} dan {B} adalah {tambah(A,B)}')
+
